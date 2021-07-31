@@ -12,7 +12,7 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
-  show_date_&contents:
+  show_date_contents:
     runs-on: ubuntu-18.04
     steps:
       - name: Date
