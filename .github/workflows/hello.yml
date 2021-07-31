@@ -20,4 +20,4 @@ jobs:
           date
       - name: Contents
         run: |
-          ls 
+          ls -l
