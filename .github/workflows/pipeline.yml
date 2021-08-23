@@ -38,3 +38,4 @@ jobs:
           heroku_email: "hubofthewest@gmail.com"
           healthcheck: "https://polar-shelf-99653.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
