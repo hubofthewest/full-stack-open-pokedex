@@ -36,3 +36,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "polar-shelf-99653" 
           heroku_email: "hubofthewest@gmail.com"
+          healthcheck: "https://polar-shelf-99653.herokuapp.com/health"
+          checkstring: "ok"
