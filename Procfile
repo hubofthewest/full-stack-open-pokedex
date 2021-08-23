@@ -1,1 +1,1 @@
-web: npm run start-poo
+web: npm run start-prod
