@@ -5,9 +5,8 @@ on:
     branches:
       - master
   pull_request:
-  branches: [master]
-  types: [opened, synchronize]
-
+    branches: [master]
+    types: [opened, synchronize]
 
 jobs:
   simple_deployment_pipeline:
@@ -41,4 +40,3 @@ jobs:
           heroku_email: "hubofthewest@gmail.com"
           healthcheck: "https://polar-shelf-99653.herokuapp.com/health"
           checkstring: "ok"
-          rollbackonhealthcheckfailed: true
